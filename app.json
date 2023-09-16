@@ -47,11 +47,11 @@
      },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "mongodb+srv://Africa:alpha3720@cluster.4bmokon.mongodb.net/?retryWrites=true&w=majority"
+      "value": "mongodb+srv://Africa:alpha3720@nakflixsharingbot.gvfnufs.mongodb.net/?retryWrites=true&w=majority"
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
-      "value": "cluster"
+      "value": "nakflixsharingbot"
     },
     "START_MESSAGE": {
       "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
