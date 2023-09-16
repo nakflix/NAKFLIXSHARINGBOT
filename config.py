@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5801156763:AAHyJHfRZPg0cRdFNRELtmHgnbCgcmghXck")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6577206072:AAFg781AbLDCzwrGKBytxDkeQrXEimfeJPg")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "14298205"))
@@ -26,7 +26,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001755253960"))
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
 
 # Heroku Credentials for updater.
-HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "naksharing")
+HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "naklinkbot")
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "cf493a35-2310-4162-a292-06afc8ef315e")
 
 # Custom Repo for updater.
